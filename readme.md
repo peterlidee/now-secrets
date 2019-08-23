@@ -9,4 +9,5 @@ now secrets add my_secret 123
 ```
 Then deploy to Now: `now`
 
-Open url and check your console, it should say: `my_secret is 123` 
+Open url and check your console, it should say: `my_secret is 123`
+And that's it, you accessed the Now secret.
