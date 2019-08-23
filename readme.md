@@ -8,3 +8,5 @@ now secrets add my_secret 123
 Then deploy to now: `now`
 
 Open url and check your console, it should say: `my_secret is 123`
+
+Remark, this will not work for local development.
