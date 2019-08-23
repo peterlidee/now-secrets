@@ -1,11 +1,16 @@
 ### Now secrets ###
-Minimal code reproduction on how to access Now secrets from next, deployed with Now.
+Minimal code reproduction on how to access Now secrets from Next.js, deployed with Now.
 
-To reproduce, add a secret called my_secret to now using now cli
+To solve this I used info from:
+https://github.com/zeit/next.js/#exposing-configuration-to-the-server--client-side
+https://zeit.co/docs/v2/build-step#using-environment-variables-and-secrets
+Note that I used 2 files: now.json and next.config.js
+
+To reproduce, add a secret called my_secret to Now using Now cli
 ```
 now secrets add my_secret 123
 ```
-Then deploy to now: `now`
+Then deploy to Now: `now`
 
 Open url and check your console, it should say: `my_secret is 123`
 
